@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https//fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Raleway, sans-serif;
+   }
+
+.body2 {
+	margin: 0;
+    padding: 0;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    justify-content: center;
+}
+
+.container {
+   margin-left: 120px;
+   margin-right: 120px;
+   align-items: top;
+   justify-content: center;
+   min-height: 100vh;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+   }
+
+.container2 {
+   position: relative;
+   height: 250px;
+   width: 740px;
+   box-shadow: 0px 0px 5px #000000;
+   opacity: .9;
+   border-radius: 20px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   padding-right: 40px;
+   padding-left: 40px;
+   align-items: bottom;
+   }
+
+.container4 {
+   position: relative;
+   height: 200px;
+   width: 740px;
+   box-shadow: 0px 0px 5px #000000;
+   opacity: .9;
+   border-radius: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+   background-color: #3D3D3D;
+   }
+
+.container3 {
+   background: #00579C;
+   position: relative;
+   height: 400px;
+   width: 715px;
+   box-shadow: 0px 0px 5px #5C5696;
+   border-radius: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+   }
+
+.title2 {
+    color: #FFFFFF;
+    font-size: 25pt;
+    font-style: bold;
+    text-align: left;
+    line-height: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 5px 5px 10px #5C5696;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.container-feed {
+   display: flex;
+   flex-direction: row;
+}
+
+.container-feed2 {
+   display: flex;
+   flex-direction: column;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 20pt;
+    text-align: left;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #000000;
+    border-radius: 100px;
+}
+
+h4 {
+    color: #F0F0F0;
+    font-size: 16pt;
+    text-align: left;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #000000;
+    border-radius: 100px;
+}
+
+.profilepic {
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.blank-container {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	align-content: center;
+	display: flex;
+    flex-direction: column;
+}
+
+.divider {
+	height: 7px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 25pt;
+    text-align: left;
+    line-height: 1;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    color: #F0F0F0;
+    box-shadow: 0px 0px 5px #5C5696;
+    }
+
+p {
+    color: #FFFFFF;
+    font-size: 12pt;
+    text-align: left;
+    line-height: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-shadow: 0px 0px 15px #000000;
+  }
+
+  .readmore {
+  	text-color: #000000;
+      background-color: #FFFFFF;
+      border-radius: 100px;
+      height: 50px;
+      width: 150px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 2px;
+      padding-left: 2px;
+      cursor: pointer;
+      font-size: 10pt;
+      border-size: 0px;
+  }
+
+  .readmore:hover {
+      text-decoration:none;
+      text-color: #FFFFFF;
+      background-color: #00579C;
+      border-radius: 100px
+      height: 50px;
+      width: 150px;
+      font-size: 10pt;
+}
